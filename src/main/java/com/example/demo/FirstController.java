@@ -221,7 +221,7 @@ public class FirstController {
         return temp;
     }
 
-    @RequestMapping("/{LATLON}")
+    @RequestMapping("/location/{LATLON}")
     public String get_weather_coordination(@PathVariable String LATLON) throws ParseException {
         String API_KEY = "ce490961c6mshc593f5f415ee002p1dc26bjsn1776dba774f9";
         API_KEY = "ce490961c6mshc593f5f415ee002p1dc26bjsn1776dba774f9";
